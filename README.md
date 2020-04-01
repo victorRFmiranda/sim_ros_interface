@@ -26,8 +26,9 @@ If you are using a differente folder, change `/Downloads/` for `/your_folder/`.
   ```
   $ sudo apt-get install xsltproc -y
   ```
-2. Install required package https://github.com/ITVRoC/ros_eposmcd. Follow `Installation to RUGGED`
-Do not forget of remove `ros_eposmcd_driver`
+2. Install required package https://github.com/ITVRoC/ros_eposmcd. Follow `Installation to RUGGED`.
+
+Don't forget of remove `ros_eposmcd_driver` from ros_eposmcd folder
  
 3. Clone this package in your ROS Workspace
 ```
