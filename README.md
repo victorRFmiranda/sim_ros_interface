@@ -26,16 +26,19 @@ If you are using a differente folder, change `/Downloads/` for `/your_folder/`.
   ```
   $ sudo apt-get install xsltproc -y
   ```
-2. Clone this package in your ROS Workspace
+2. Install required package https://github.com/ITVRoC/ros_eposmcd. Follow `Installation to RUGGED`
+Do not forget of remove `ros_eposmcd_driver`
+ 
+3. Clone this package in your ROS Workspace
 ```
 $ cd ~/catkin_ws/src
 $ git clone --recursive https://github.com/victorRFmiranda/sim_ros_interface.git sim_ros_interface
 ```
-3. Compile
+4. Compile
 ```
 $ catkin build
 ```
 
-4. Copy the file `../catkin_ws/devel/lib/libsimExtROSInterface.so` to you CoppeliaSim root.
+5. Copy the file `../catkin_ws/devel/lib/libsimExtROSInterface.so` to you CoppeliaSim root.
 
-5. Run the ROS master, open CoppeliaSim (type coppeliaSim on terminal), load any EspeleoRobô model, play the scene and check if the topics have appeared, indicating that you are good to go!
+6. Run the ROS master, open CoppeliaSim (type coppeliaSim on terminal), load any EspeleoRobô model, play the scene and check if the topics have appeared, indicating that you are good to go!
