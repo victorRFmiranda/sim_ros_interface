@@ -29,7 +29,7 @@ If you are using a differente folder, change `/Downloads/` for `/your_folder/`.
 2. Clone this package in your ROS Workspace
 ```
 $ cd ~/catkin_ws/src
-$ git clone --recursive https://github.com/CoppeliaRobotics/simExtROSInterface.git sim_ros_interface
+$ git clone --recursive https://github.com/victorRFmiranda/sim_ros_interface.git sim_ros_interface
 ```
 3. Compile
 ```
