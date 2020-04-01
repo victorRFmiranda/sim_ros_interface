@@ -17,7 +17,7 @@ $ tar -xf CoppeliaSim_Edu_V4_0_0_Ubuntu16_04.tar.xz
 export COPPELIASIM_ROOT_DIR=~/Downloads/CoppeliaSim_Edu_V4_0_0_Ubuntu16_04
 alias coppeliaSim=~/Downloads/CoppeliaSim_Edu_V4_0_0_Ubuntu16_04/coppeliaSim.sh
 ```
-If you are using a differente folder, change '/Downloads/' for '/your_folder/'.
+If you are using a differente folder, change `/Downloads/` for `/your_folder/`.
 
 
 ### Compiling this package
