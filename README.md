@@ -31,7 +31,7 @@ source ~/.bashrc
 
 If you are using a different folder, change `~/Downloads/` for `your_folder_path`.
 
-Try typing `copeliasim` on a new terminal and see if the simulator opens. In this case, go to the next step, other case check what is wrong before proceeding.
+Try typing `coppeliasim` on a new terminal and see if the simulator opens. In this case, go to the next step, other case check what is wrong before proceeding.
 
 
 ### Compiling this package
