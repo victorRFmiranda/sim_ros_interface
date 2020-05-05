@@ -30,6 +30,5 @@
   <depend>visualization_msgs</depend>
   <depend>rosconsole</depend>
   <depend>roslib</depend>
-  <depend>ros_eposmcd_msgs</depend>
 
 </package>
