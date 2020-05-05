@@ -4,5 +4,3 @@ roscpp/GetLoggers
 roscpp/SetLoggerLevel
 std_srvs/Empty
 std_srvs/Trigger
-ros_eposmcd_msgs/MaxonStatusWord
-ros_eposmcd_msgs/MaxonTelemetry
