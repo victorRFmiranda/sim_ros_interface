@@ -71,6 +71,24 @@ Plugin 'ROSInterface': load succeeded.
 ```
 In the positive case, your simulator is communicating with ROS. You are ready to load a EspeleoRobô model and play with it. Please go to the `https://github.com/ITVRoC/espeleo_vrep_simulation` to get instruction on how to obtain and load the models.
 
+## Troubleshooting
+
+- If you got the following error:
+
+```
+print('error: program "{0}" is missing (hint: try "sudo apt install {0}")'.format(what), file=sys.stderr)
+```
+
+Change the folder `programming/libPlugin` from your COPPELIASIM_ROOT_DIR for the following [libPlugin](https://github.com/CoppeliaRobotics/libPlugin) and compile again:
+
+
+```
+$ cd $COPPELIASIM_ROOT_DIR/programming
+$ sudo rm -r libPlugin
+$ git clone https://github.com/CoppeliaRobotics/libPlugin.git
+```
+
+
 ## Contact
 
 Any questions, please contact-me in ``victormrfm@gmail.com``.
