@@ -40,21 +40,14 @@ Try typing `copeliasim` on a new terminal and see if the simulator opens. In thi
   ```
   $ sudo apt-get install python-catkin-tools xsltproc ros-$ROS_DISTRO-brics-actuator ros-$ROS_DISTRO-tf2-sensor-msgs
   ```
-
-2. Install required package:
-  ```
-  $ git clone https://github.com/ITVRoC/ros_eposmcd.
-  ```
-
-Follow `Installation to RUGGED`. Don't forget of remove `ros_eposmcd_driver` inside ros_eposmcd folder
  
-3. Clone the following package in your ROS Workspace
+2. Clone the following package in your ROS Workspace
 ```
 $ cd ~/catkin_ws/src
 $ git clone --recursive https://github.com/victorRFmiranda/sim_ros_interface.git sim_ros_interface
 ```
 
-4. Compile
+3. Compile
 ```
 $ catkin build
 ```
