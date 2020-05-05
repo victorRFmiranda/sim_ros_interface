@@ -149,6 +149,3 @@ visualization_msgs/InteractiveMarkerUpdate
 visualization_msgs/Marker
 visualization_msgs/MarkerArray
 visualization_msgs/MenuEntry
-ros_eposmcd_msgs/MovementArray
-ros_eposmcd_msgs/Movement
-ros_eposmcd_msgs/EspeleoJoints
