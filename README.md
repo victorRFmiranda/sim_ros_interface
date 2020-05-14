@@ -88,6 +88,14 @@ $ sudo rm -r libPlugin
 $ git clone https://github.com/CoppeliaRobotics/libPlugin.git
 ```
 
+Or copy libPlugin folder that is inside of [Extra_Files](https://github.com/victorRFmiranda/sim_ros_interface/tree/master/Extra_Files) to $COPPELIASIM_ROOT_DIR/programming:
+
+
+```
+$ sudo rm -r $COPPELIASIM_ROOT_DIR/programming/libPlugin
+$ sudo cp -r ~/sim_ros_interface/Extra_Files/libPlugin $COPPELIASIM_ROOT_DIR/programming
+```
+
 
 ## Contact
 
