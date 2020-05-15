@@ -69,7 +69,7 @@ Plugin 'RosInterface': warning: replaced variable 'simROS'
 Plugin 'ROSInterface': load succeeded.
 
 ```
-In the positive case, your simulator is communicating with ROS. You are ready to load a EspeleoRobô model and play with it. Please go to the `https://github.com/ITVRoC/espeleo_vrep_simulation` to get instruction on how to obtain and load the models.
+In the positive case, your simulator is communicating with ROS. You are ready to load a EspeleoRobô model and play with it.
 
 ## Troubleshooting
 
